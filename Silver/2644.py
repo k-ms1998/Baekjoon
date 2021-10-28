@@ -34,6 +34,6 @@ if cnt == -1:
     print(-1)
 else:
     #len(path)-1 to not count the starting nodes themselves
-    #But, the paths should inlcude starting nodes to account for when 
+    #But, the paths should inlcude starting nodes to account for when the two nodes are directly related
     print((len(sPath)-1)+(len(dPath)-1)-2*cnt) 
     
