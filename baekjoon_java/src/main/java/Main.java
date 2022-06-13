@@ -1,6 +1,7 @@
 import Bronze.Prob2798;
 import Bronze.Prob2920;
 import Silver.Prob1874;
+import Silver.Prob1966;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +18,9 @@ public class Main {
         /**
          * Silver
          */
-        prob1874_solve();
+//        prob1874_solve();
+        prob1966_solve();
+
     }
 
     private static void prob2798_solve() {
@@ -59,5 +62,11 @@ public class Main {
         }
 
         problem.solve(n, data);
+    }
+
+    private static void prob1966_solve() {
+        Prob1966 problem = new Prob1966();
+
+        problem.solve();
     }
 }
