@@ -1,5 +1,6 @@
 import Bronze.Prob2798;
 import Bronze.Prob2920;
+import Silver.Prob1874;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +8,16 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        /**
+         * Bronze
+         */
 //        prob2798_solve();
-        prob2920_solve();
+//        prob2920_solve();
+
+        /**
+         * Silver
+         */
+        prob1874_solve();
     }
 
     private static void prob2798_solve() {
@@ -36,5 +45,19 @@ public class Main {
         }
 
         problem.solve(data);
+    }
+
+    private static void prob1874_solve() {
+        Prob1874 problem = new Prob1874();
+
+        Scanner sc = new Scanner(System.in);
+
+        int n = sc.nextInt();
+        List<Integer> data = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            data.add(sc.nextInt());
+        }
+
+        problem.solve(n, data);
     }
 }
