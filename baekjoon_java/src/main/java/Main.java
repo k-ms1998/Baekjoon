@@ -1,6 +1,7 @@
 import Bronze.Prob2798;
 import Bronze.Prob2920;
 import Silver.Prob1874;
+import Silver.Prob1920;
 import Silver.Prob1966;
 import Silver.Prob5397;
 
@@ -21,7 +22,8 @@ public class Main {
          */
 //        prob1874_solve();
 //        prob1966_solve();
-        prob5397_solve();
+//        prob5397_solve();
+        prob1920_solve();
     }
 
     private static void prob2798_solve() {
@@ -73,6 +75,12 @@ public class Main {
 
     private static void prob5397_solve() {
         Prob5397 problem = new Prob5397();
+
+        problem.solve();
+    }
+
+    private static void prob1920_solve() {
+        Prob1920 problem = new Prob1920();
 
         problem.solve();
     }
