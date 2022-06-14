@@ -1,5 +1,6 @@
 import Bronze.Prob2798;
 import Bronze.Prob2920;
+import Gold.Prob17298;
 import Gold.Prob4195;
 import Silver.*;
 
@@ -23,12 +24,13 @@ public class Main {
 //        prob1966_solve();
 //        prob5397_solve();
 //        prob1920_solve();
-        prob10828_solve();
+//        prob10828_solve();
 
         /**
          * Gold
          */
 //        prob4195_solve();
+        prob17298_solve();
     }
 
     private static void prob2798_solve() {
@@ -98,6 +100,12 @@ public class Main {
 
     private static void prob10828_solve() throws IOException {
         Prob10828 problem = new Prob10828();
+
+        problem.solve();
+    }
+
+    private static void prob17298_solve() throws IOException{
+        Prob17298 problem = new Prob17298();
 
         problem.solve();
     }
