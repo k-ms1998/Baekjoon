@@ -1,13 +1,9 @@
-import Bronze.Prob2798;
-import Bronze.Prob2920;
-import Gold.Prob17298;
-import Gold.Prob4195;
+import Bronze.*;
+import Gold.*;
 import Silver.*;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -26,7 +22,8 @@ public class Main {
 //        prob1920_solve();
 //        prob10828_solve();
 //        prob11866_solve();
-        prob13335_solve();
+//        prob13335_solve();
+        prob2346_solve();
 
         /**
          * Gold
@@ -120,6 +117,12 @@ public class Main {
 
     private static void prob13335_solve() throws IOException{
         Prob13335 problem = new Prob13335();
+
+        problem.solve();
+    }
+
+    private static void prob2346_solve() throws IOException{
+        Prob2346 problem = new Prob2346();
 
         problem.solve();
     }
