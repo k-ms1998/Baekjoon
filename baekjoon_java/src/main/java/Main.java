@@ -26,6 +26,7 @@ public class Main {
 //        prob2346_solve();
 //        prob1543_solve();
 //        prob1302_solve();
+        prob1325_solve();
         
         /**
          * Gold
@@ -34,7 +35,7 @@ public class Main {
 //        prob17298_solve();
 //        prob2110_solve();
 //        prob1939_solve();
-        prob12865_solve();
+//        prob12865_solve();
     }
 
     private static void prob2798_solve() {
@@ -161,4 +162,11 @@ public class Main {
 
         problem.solve();
     }
+
+    private static void prob1325_solve() throws IOException {
+        Prob1325 problem = new Prob1325();
+
+        problem.solve();
+    }
+
 }
