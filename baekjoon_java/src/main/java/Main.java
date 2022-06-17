@@ -33,7 +33,8 @@ public class Main {
 //        prob4195_solve();
 //        prob17298_solve();
 //        prob2110_solve();
-        prob1939_solve();
+//        prob1939_solve();
+        prob12865_solve();
     }
 
     private static void prob2798_solve() {
@@ -151,6 +152,12 @@ public class Main {
 
     private static void prob1939_solve() throws IOException{
         Prob1939 problem = new Prob1939();
+
+        problem.solve();
+    }
+
+    private static void prob12865_solve() throws IOException{
+        Prob12865 problem = new Prob12865();
 
         problem.solve();
     }
