@@ -27,7 +27,8 @@ public class Main {
 //        prob1543_solve();
 //        prob1302_solve();
 //        prob1325_solve();
-        prob1427_solve();
+//        prob1427_solve();
+        prob10814_solve();
 
         /**
          * Gold
@@ -179,6 +180,12 @@ public class Main {
 
     private static void prob1427_solve() throws IOException{
         Prob1427 problem = new Prob1427();
+
+        problem.solve();
+    }
+
+    private static void prob10814_solve() throws IOException{
+        Prob10814 problem = new Prob10814();
 
         problem.solve();
     }
