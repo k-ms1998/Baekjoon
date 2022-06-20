@@ -26,8 +26,8 @@ public class Main {
 //        prob2346_solve();
 //        prob1543_solve();
 //        prob1302_solve();
-        prob1325_solve();
-        
+//        prob1325_solve();
+
         /**
          * Gold
          */
@@ -36,6 +36,7 @@ public class Main {
 //        prob2110_solve();
 //        prob1939_solve();
 //        prob12865_solve();
+        prob1461_solve();
     }
 
     private static void prob2798_solve() {
@@ -49,7 +50,7 @@ public class Main {
             data.add(sc.nextInt());
         }
 
-        problem.solve(n, m , data);
+        problem.solve(n, m, data);
     }
 
     private static void prob2920_solve() {
@@ -109,55 +110,55 @@ public class Main {
         problem.solve();
     }
 
-    private static void prob17298_solve() throws IOException{
+    private static void prob17298_solve() throws IOException {
         Prob17298 problem = new Prob17298();
 
         problem.solve();
     }
 
-    private static void prob11866_solve() throws IOException{
+    private static void prob11866_solve() throws IOException {
         Prob11866 problem = new Prob11866();
 
         problem.solve();
     }
 
-    private static void prob13335_solve() throws IOException{
+    private static void prob13335_solve() throws IOException {
         Prob13335 problem = new Prob13335();
 
         problem.solve();
     }
 
-    private static void prob2346_solve() throws IOException{
+    private static void prob2346_solve() throws IOException {
         Prob2346 problem = new Prob2346();
 
         problem.solve();
     }
 
-    private static void prob1543_solve() throws IOException{
+    private static void prob1543_solve() throws IOException {
         Prob1543 problem = new Prob1543();
 
         problem.solve();
     }
 
-    private static void prob1302_solve() throws IOException{
+    private static void prob1302_solve() throws IOException {
         Prob1302 problem = new Prob1302();
 
         problem.solve();
     }
 
-    private static void prob2110_solve() throws IOException{
+    private static void prob2110_solve() throws IOException {
         Prob2110 problem = new Prob2110();
 
         problem.solve();
     }
 
-    private static void prob1939_solve() throws IOException{
+    private static void prob1939_solve() throws IOException {
         Prob1939 problem = new Prob1939();
 
         problem.solve();
     }
 
-    private static void prob12865_solve() throws IOException{
+    private static void prob12865_solve() throws IOException {
         Prob12865 problem = new Prob12865();
 
         problem.solve();
@@ -169,4 +170,9 @@ public class Main {
         problem.solve();
     }
 
+    private static void prob1461_solve() throws IOException {
+        Prob1461 problem = new Prob1461();
+
+        problem.solve();
+    }
 }
