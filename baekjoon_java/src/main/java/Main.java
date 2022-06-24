@@ -29,8 +29,9 @@ public class Main {
 //        prob1325_solve();
 //        prob1427_solve();
 //        prob10814_solve();
-        prob11650_solve();
-
+//        prob11650_solve();
+//        prob1074_solve();
+        
         /**
          * Gold
          */
@@ -40,6 +41,7 @@ public class Main {
 //        prob1939_solve();
 //        prob12865_solve();
 //        prob1461_solve();
+        prob7490_solve();
     }
 
     private static void prob2798_solve() {
@@ -193,6 +195,18 @@ public class Main {
 
     private static void prob11650_solve() throws IOException {
         Prob11650 problem = new Prob11650();
+
+        problem.solve();
+    }
+
+    private static void prob1074_solve() {
+        Prob1074 problem = new Prob1074();
+
+        problem.solve();
+    }
+
+    private static void prob7490_solve() throws IOException{
+        Prob7490 problem = new Prob7490();
 
         problem.solve();
     }
