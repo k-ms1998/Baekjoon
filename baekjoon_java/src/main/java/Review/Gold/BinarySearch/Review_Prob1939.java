@@ -1,4 +1,4 @@
-package Review.Gold;
+package Review.Gold.BinarySearch;
 
 import java.io.*;
 import java.util.*;

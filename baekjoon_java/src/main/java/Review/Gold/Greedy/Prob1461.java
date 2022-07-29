@@ -1,4 +1,4 @@
-package Review.Gold;
+package Review.Gold.Greedy;
 
 import java.util.*;
 
