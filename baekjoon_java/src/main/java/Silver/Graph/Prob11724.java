@@ -18,6 +18,8 @@ import java.util.StringTokenizer;
  * 출력
  * 첫째 줄에 연결 요소의 개수를 출력한다.
  *
+ * Solution: Parent + Union
+ *
  */
 public class Prob11724 {
 
