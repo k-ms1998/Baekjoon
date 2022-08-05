@@ -37,7 +37,8 @@ public class Prob2667 {
             for (int x = 0; x < n; x++) {
                 if (grid[y][x] == 1) {
                     grid[y][x] = 0;
-                    bfs(x, y);
+//                    bfs(x, y);
+                    groups.add(dfs(x, y, 1));
                 }
             }
         }
@@ -48,6 +49,22 @@ public class Prob2667 {
             ans.append(g + "\n");
         }
         System.out.println(ans);
+    }
+
+    public static int dfs(int x, int y, int cnt) {
+        for (int i = 0; i < 4; i++) {
+            int nx = x + tx[i];
+            int ny = y + ty[i];
+
+            if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
+                if (grid[ny][nx] == 1) {
+                    grid[ny][nx] = 0;
+                    cnt = dfs(nx, ny, cnt + 1);
+                }
+            }
+        }
+
+        return cnt;
     }
 
     public static void bfs(int x, int y) {
