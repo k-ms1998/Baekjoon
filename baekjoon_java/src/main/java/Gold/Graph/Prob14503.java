@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Graph;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -33,7 +33,7 @@ import java.util.StringTokenizer;
  *
  * Solution: DFS
  */
-public class Gold14503 {
+public class Prob14503 {
 
     static int n;
     static int m;
