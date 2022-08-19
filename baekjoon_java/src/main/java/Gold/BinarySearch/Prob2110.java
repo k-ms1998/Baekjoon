@@ -1,4 +1,4 @@
-package Gold;
+package Gold.BinarySearch;
 
 import java.io.*;
 import java.util.*;

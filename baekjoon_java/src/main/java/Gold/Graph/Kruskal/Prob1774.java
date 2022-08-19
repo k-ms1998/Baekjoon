@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Graph.Kruskal;
 
 import java.io.*;
 import java.util.*;

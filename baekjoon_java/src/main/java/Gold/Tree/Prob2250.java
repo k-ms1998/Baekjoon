@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Tree;
 
 import java.io.*;
 import java.util.*;

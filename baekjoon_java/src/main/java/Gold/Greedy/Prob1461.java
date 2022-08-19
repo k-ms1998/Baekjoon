@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Greedy;
 
 import java.io.*;
 import java.util.*;

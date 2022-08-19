@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Greedy;
 
 import javax.script.ScriptContext;
 import java.io.BufferedReader;

@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Basic;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,6 +7,12 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.StringTokenizer;
 
+/**
+ * Gold 5
+ * 
+ * Solution: 수학
+ *
+ */
 public class Prob1011 {
 
     static int s;

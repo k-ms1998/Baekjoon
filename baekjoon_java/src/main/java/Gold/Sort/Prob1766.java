@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Sort;
 
 import java.io.BufferedReader;
 import java.io.IOException;

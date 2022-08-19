@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Basic;
 
 import java.util.*;
 import java.io.*;

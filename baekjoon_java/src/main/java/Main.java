@@ -1,5 +1,11 @@
 import Bronze.*;
-import Gold.*;
+import Gold.Backtracking.Prob7490;
+import Gold.Basic.Prob17298;
+import Gold.BinarySearch.Prob1939;
+import Gold.BinarySearch.Prob2110;
+import Gold.DP.Prob12865;
+import Gold.Graph.Prob4195;
+import Gold.Greedy.Prob1461;
 import Silver.*;
 
 import java.io.*;
@@ -30,7 +36,6 @@ public class Main {
 //        prob1427_solve();
 //        prob10814_solve();
 //        prob11650_solve();
-//        prob1074_solve();
         
         /**
          * Gold
@@ -195,12 +200,6 @@ public class Main {
 
     private static void prob11650_solve() throws IOException {
         Prob11650 problem = new Prob11650();
-
-        problem.solve();
-    }
-
-    private static void prob1074_solve() {
-        Prob1074 problem = new Prob1074();
 
         problem.solve();
     }

@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Backtracking;
 
 import java.io.*;
 import java.util.*;
