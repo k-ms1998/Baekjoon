@@ -5,6 +5,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
+/**
+ * Gold 3
+ *
+ *  https://www.acmicpc.net/problem/1865
+ *
+ *  Solution:
+ *  WormHole 는 사실상 음수 가중치를 가진 간선 -> 음수 가중치를 가진 간선이 있는 경우 Bellman-Ford 알고리즘으로 풀이
+ *
+ *  아래 풀이는 다익스크라
+ *  -> 문제 해결은 가능하지만, 시간이 오래 걸림(약 1000ms)
+ *
+ */
 public class Prob1865_dijkstra {
 
     static int n;
