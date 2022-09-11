@@ -1,4 +1,4 @@
-package Gold.Basic;
+package Gold.Basic.TwoPointer;
 
 import java.io.*;
 import java.util.*;
