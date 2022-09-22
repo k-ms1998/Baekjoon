@@ -9,6 +9,7 @@ import java.util.*;
  * https://www.acmicpc.net/problem/2042
  *
  * Solution: Segment Tree
+ *  => 구간 합을 수정 할때 O(log n)에 수행 가능 (vs. 배열로 구간 합을 저장하고 있으면 O(n)에 수행 됨 (Prob2042_basic_sum))
  */
 public class Prob2042_segmentTree {
 
