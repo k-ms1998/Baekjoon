@@ -1,4 +1,4 @@
-package Platinum;
+package Platinum.Graph.Dijkstra;
 
 import java.io.BufferedReader;
 import java.io.IOException;
