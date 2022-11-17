@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Tree;
 
 import java.io.*;
 import java.util.*;
@@ -8,7 +8,7 @@ import java.util.*;
  *
  * https://www.acmicpc.net/problem/11437
  *
- * Solution: Tree + 가장
+ * Solution: Tree + 가장 가까운 조상
  */
 public class Prob11437 {
 
