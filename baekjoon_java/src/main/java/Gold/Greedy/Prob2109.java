@@ -1,4 +1,4 @@
-package Gold.Sort;
+package Gold.Greedy;
 
 import java.io.*;
 import java.util.*;
