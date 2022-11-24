@@ -1,4 +1,4 @@
-package Gold.Basic;
+package Gold.DP.LIS;
 
 import java.io.*;
 import java.util.*;
