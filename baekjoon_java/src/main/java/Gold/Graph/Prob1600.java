@@ -1,4 +1,4 @@
-package Gold;
+package Gold.Graph;
 
 import java.io.*;
 import java.util.*;
