@@ -10,7 +10,7 @@ import java.util.*;
  *
  * Solution: BFS
  */
-public class Prob3108 {
+public class Prob16933 {
 
     static int n, m, k;
     static int[][] grid;
