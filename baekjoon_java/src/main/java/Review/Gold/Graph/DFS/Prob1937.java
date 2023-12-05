@@ -1,4 +1,4 @@
-package Review.Gold;
+package Review.Gold.Graph.DFS;
 
 import java.io.*;
 import java.util.*;
