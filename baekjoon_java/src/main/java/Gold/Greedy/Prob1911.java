@@ -45,8 +45,8 @@ public class Prob1911 {
             if(rem > 0){
                 cnt++;
             }
-            t
-                    last = s + l * cnt;
+
+            last = s + l * cnt;
             answer += cnt;
         }
 
